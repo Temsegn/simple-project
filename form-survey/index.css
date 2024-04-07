@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+}
+body {
+  background-color: rgb(17, 1, 36);
+  background: linear-gradient(
+    to right,
+    rgb(137, 146, 178),
+    rgb(121, 113, 168),
+    rgb(116, 103, 185),
+    rgb(174, 62, 244)
+  );
+}
+header {
+  margin-top: 20px;
+  text-align: center;
+}
+header h1 {
+  font-size: 40px;
+}
+#description,
+span {
+  color: #5e5e65;
+  font-size: 15px;
+}
+input:hover {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  box-shadow: 20px 2px 40px rgb(30, 27, 27);
+  border-radius: 10px;
+  padding: 17px;
+}
+#survey-form {
+  border: 2px solid #1b1b32;
+  border-radius: 5px;
+  background-color: #1b1b32;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  margin: 5% 20%;
+  padding: 20px;
+  box-shadow: 30px 20px 40px black;
+}
+
+#survey-form:hover {
+  position: relative;
+  top: 20px;
+  background-color: #0f0f2a;
+}
+#survey-form .element {
+  display: flex;
+  flex-direction: column;
+}
+/* #survey-form .form-group p */
+input,
+#dropdown {
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 10px;
+  color: black;
+}
+#dropdown {
+  color: #5e5e65;
+  padding: 10px;
+  font-size: 15px;
+}
+.form-group #submit {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+textarea {
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 4px;
+}
