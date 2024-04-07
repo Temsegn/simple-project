@@ -1,0 +1,89 @@
+body {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  /* background-image: url(/image/beatiful-place.jpg); */
+  background-color: darkslategrey;
+  background-size: 100% 100%;
+}
+
+/* .whole
+{
+   margin: 10% 30%;
+} */
+.drum-header {
+  margin-bottom: 80px;
+  color: white;
+}
+.drum {
+  font-size: 100px;
+  padding: 50px 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: rgb(253, 251, 251);
+  color: rgb(241, 13, 180);
+  text-shadow: 6px 6px 6px;
+}
+.all-key .w,
+.a,
+.s,
+.j,
+.k {
+  box-shadow: 70px 10px black;
+}
+footer {
+  margin: 100px 0px;
+  color: white;
+}
+.dram {
+  position: absolute;
+  padding: 132px 60px;
+  margin-left: 0px;
+  box-shadow: 10px 10px 10px black;
+  background-color: rgb(6, 6, 6);
+  z-index: -1;
+  border: 2px double rgb(92, 58, 45);
+  border-bottom: none;
+  border-radius: 5px;
+}
+
+.black-key {
+  margin: 0px 0px 150px 0px;
+}
+.black-key .ww {
+  margin-left: -320px;
+}
+.black-key .aa {
+  margin-left: -180px;
+}
+.black-key .ss {
+  margin-left: -40px;
+}
+.black-key .jj {
+  margin-left: 100px;
+}
+.black-key .kk {
+  margin-left: 240px;
+}
+@media (max-width: 800px) {
+  body {
+    text-align: start;
+  }
+
+  .drum {
+    padding: 20px;
+  }
+  .dram {
+    padding: 90px 30px;
+  }
+}
+.pressed {
+  box-shadow: 4px 8px 8px rgb(249, 199, 17);
+}
+.buttonColor {
+  color: rgb(250, 227, 12);
+  text-shadow: 2px 2px 2px black;
+  font-size: 150px;
+  padding: 20px;
+}

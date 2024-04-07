@@ -1,0 +1,38 @@
+body
+{
+   background-color: black;
+   color: white;
+   padding: 0px 100px;
+}
+.top-para
+{
+   font-size: 30px;
+   font-weight: bolder;
+   padding: 4px 5px;
+}
+.btn1,.btn2,.btn3
+   {
+     padding: 3% 4%;
+     border-radius: 98%;
+     border: 3px solid white;   
+     background-color: black;   
+     margin: 5px; 
+    font-size: 500%;
+   }
+
+ .move-icon
+   {
+      height: 100px;
+      width: 100px;
+   }
+  .js-result
+    {
+       font-size: 35px;
+       font-weight: bold;
+       padding-left: 40px;
+    }
+  .js-score
+  {
+     margin-bottom: 30px;
+     padding-left: 40px;
+  }
